@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+  @apply border h-16 flex justify-between bg-white items-center sticky top-0
+}
+
+.nav-div{
+  @apply w-2/3 flex items-center align-middle
+}
+
+.nav-div-svg{
+  @apply ml-5 cursor-pointer
+}
+
+.nav-div-ul{
+  @apply w-3/5 items-center font-sans text-grayc font-normal justify-between flex text-sm ml-8
+}
+
+.nav-div-ul-li{
+  @apply cursor-pointer h-8 pl-2 pr-2 flex justify-center items-center
+}
+
+.nav-div-ul-li-hover{
+  @apply hover:bg-gray-100 hover:text-black hover:rounded-full
+}
+
+.nav-ul-li{
+  @apply cursor-pointer border pl-2.5 pr-2.5 h-8 rounded-lg hover:bg-gray-100
+}
+
+.footer{
+  @apply h-height-footer flex flex-col justify-evenly items-center
+}
+
+.footer-nav{
+  @apply flex justify-evenly font-sans text-sm font-normal text-grayc
+}
+
+.footer-nav-ul{
+  @apply w-custom-width
+}
+
+.footer-nav-ul-li{
+  @apply  pt-1.5 pb-1.5
+}
+
+.footer-nav-ul-li-a{
+  @apply  hover:text-black cursor-pointer flex items-center
+}
+
+.footer-nav-ul-h2{
+  @apply font-medium text-black mb-3 mt-3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
