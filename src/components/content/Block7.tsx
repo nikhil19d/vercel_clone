@@ -87,35 +87,90 @@ const Block7 = () =>{
             <hr className="border-dashed"></hr>
             <hr className="border-dashed"></hr>
           </div>
-          <div className="h-full w-full flex justify-around border border-black relative bottom-gridadj z-30">
-            <hr className="border-dashed border-black rotate-90"></hr>
-            <hr className="border-dashed border-black rotate-90"></hr>
-            <hr className="border-dashed border-black rotate-90"></hr>
-            <hr className="border-dashed border-black rotate-90"></hr>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
           </div>
           </div>
           <div className="h-/1/3 w-full bg-white p-4 font-semibold text-base">Next.js Templates</div>
         </div>
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-reactbg'></div>
+        <div className="mt-8 w-11/12 h-1/4 flex flex-col border z-10">
+          <div className='h-2/3 w-full bg-reactbg z-0'>
+          <div className="h-full w-full flex flex-col justify-evenly"> 
+            <hr className="border-dashed border-react"></hr>
+            <hr className="border-dashed border-react"></hr>
+          </div>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed border-react"></hr>
+            <hr className="border-dashed border-react"></hr>
+            <hr className="border-dashed border-react"></hr>
+            <hr className="border-dashed border-react"></hr>
+          </div>
+          </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">React Templates</div>
         </div>
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full'></div>
+        <div className="mt-8 w-11/12 h-1/4 flex flex-col border">
+          <div className='h-2/3 w-full'>
+          <div className="h-full w-full flex flex-col justify-evenly"> 
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+          </div>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+            <hr className="border-dashed"></hr>
+          </div>
+          </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Astro Templates</div>
         </div>
       </div>
       <div className="flex flex-col items-end justify-end w-1/3 h-block7 border">
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-sveltebg'></div>
+          <div className='h-2/3 w-full bg-sveltebg'>
+          <div className="h-full w-full flex flex-col justify-evenly"> 
+            <hr className="border-dashed border-svelte"></hr>
+            <hr className="border-dashed border-svelte"></hr>
+          </div>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed border-svelte"></hr>
+            <hr className="border-dashed border-svelte"></hr>
+            <hr className="border-dashed border-svelte"></hr>
+            <hr className="border-dashed border-svelte"></hr>
+          </div>
+          </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Svelte Templates</div>
         </div>  
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-nuxtbg'></div>
+          <div className='h-2/3 w-full bg-nuxtbg'>
+          <div className="h-full w-full flex flex-col justify-evenly"> 
+            <hr className="border-dashed border-nuxt"></hr>
+            <hr className="border-dashed border-nuxt"></hr>
+          </div>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed border-nuxt"></hr>
+            <hr className="border-dashed border-nuxt"></hr>
+            <hr className="border-dashed border-nuxt"></hr>
+            <hr className="border-dashed border-nuxt"></hr>
+          </div>
+          </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Nuxt Templates</div>
         </div>
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-pythonbg'></div>
+          <div className='h-2/3 w-full bg-pythonbg'>
+          <div className="h-full w-full flex flex-col justify-evenly"> 
+            <hr className="border-dashed border-python"></hr>
+            <hr className="border-dashed border-python"></hr>
+          </div>
+          <div className="h-96 w-height-div flex flex-col justify-around rotate-90 relative bottom-reB left-reL z-20">
+            <hr className="border-dashed border-python"></hr>
+            <hr className="border-dashed border-python"></hr>
+            <hr className="border-dashed border-python"></hr>
+            <hr className="border-dashed border-python"></hr>
+          </div>
+          </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Python Templates</div>
         </div>
       </div>
