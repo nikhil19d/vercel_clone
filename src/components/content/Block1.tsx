@@ -1,6 +1,6 @@
 const Block1 = () =>{
   return(
-  <div className="h-block1 border">
+  <div className="h-block1">
   1
   </div>
   );

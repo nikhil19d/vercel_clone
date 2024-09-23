@@ -1,7 +1,7 @@
 import { ChevronDown } from '@geist-ui/react-icons'
 function Footer (){
 return(
-    <footer className="footer">
+    <footer className="footer bg-primary">
       <nav className="footer-nav">
         <ul className="footer-nav-ul">
           <h2 className="font-medium text-black mb-3 mt-3">Products</h2>

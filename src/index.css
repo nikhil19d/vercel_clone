@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .nav{
-  @apply border h-16 flex justify-between bg-white items-center sticky top-0
+  @apply border h-16 flex justify-between bg-primary items-center sticky top-0
 }
 
 .nav-div{
