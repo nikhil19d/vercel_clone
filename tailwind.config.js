@@ -31,7 +31,7 @@ export default {
       },
       spacing: {
         'height-div': '116px',
-        'width-div': '380px',
+        'width-div': '324px',
         'height-footer': '485px',
         'custom-width': '250px',
         'custom-width1': '80px',
@@ -48,8 +48,11 @@ export default {
         'block7': '709.52px',
         'block8': '232px',
         'border-w': '1px',
-        'reL': '133px',
-        'reB': '251px'
+        'reL': '104px',
+        'reB': '252px',
+        'logoPos': '504px',
+        'hoverlogo': '70px',
+        'templatedim': '183px'
       },
     },
   },
