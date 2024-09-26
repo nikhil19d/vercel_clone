@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+      scale: ['group-hover'],
       fontFamily: {
         //sans: ['Geist', 'sans-serif'],
         sans: ['Geist Sans', ...fontFamily.sans],
@@ -27,7 +28,11 @@ export default {
         pythonbg: '#fffaf0',
         nuxt: '#c7f5e2',
         nuxtbg: '#f0fff9',
-
+        hoverReact: '#eff8fc',
+        hoverPython: '#fdf9f4',
+        hoverNuxt: '#f4fdf9',
+        hoverSvelte: '#fffaf8',
+        hoverNextAstro: '#f8f8f8',
       },
       spacing: {
         'height-div': '116px',
@@ -52,7 +57,16 @@ export default {
         'reB': '252px',
         'logoPos': '504px',
         'hoverlogo': '70px',
-        'templatedim': '183px'
+        'templatedim': '183px',
+        'reborder': '687px',
+        'reborder1': '801px',
+        'marginl': '140px',
+        'margint': '40px',
+        'clip': '38px',
+        'clip1': '53px',
+        'clippos':'11px',
+        'clipposl': '27px',
+        'bw': '1px'
       },
     },
   },

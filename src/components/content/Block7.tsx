@@ -81,8 +81,8 @@ const Block7 = () =>{
         </ul>
       </div>
       <div className="flex flex-col items-end justify-end w-1/3 h-block7 border">
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col border z-10">
-          <div className='h-2/3 w-full z-0'>
+        <div className="mt-8 w-11/12 h-1/4 flex flex-col border-bw border z-10">
+          <div className='h-2/3 w-full z-80 hover:bg-hoverNextAstro hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed"></hr>
             <hr className="border-dashed"></hr>
@@ -93,8 +93,8 @@ const Block7 = () =>{
             <hr className="border-dashed"></hr>
             <hr className="border-dashed"></hr>
           </div>
-          <div className="relative bottom-logoPos h-templatedim flex justify-center">
-            <svg className="border relative top-7 rounded-full border-dashed p-3.5" data-testid="geist-icon" height="65" stroke-linejoin="round" viewBox="0 0 16 16" width="65"><g clip-path="url(#clip0_53_108)">
+          <div className="group relative bottom-logoPos h-templatedim z-20">
+            <div className='transition-transform transform duration-200 z-30 group-hover:scale-110 ease-in-out h-height-div w-width-div flex items-center justify-center'><svg className="h-10 w-10" data-testid="geist-icon" height="40" stroke-linejoin="round" viewBox="0 0 16 16" width="40"><g clip-path="url(#clip0_53_108)">
   <circle cx="8" cy="8" r="7.375" fill="black" stroke="var(--ds-gray-1000)" stroke-linecap="round" stroke-linejoin="round"></circle>
   <path d="M10.63 11V5" stroke="url(#paint0_linear_53_1086rwdhilzz)" stroke-miterlimit="1.41421"></path>
   <path fill-rule="evenodd" d="M5.995 5.00087V5H4.745V11H5.995V6.96798L12.3615 14.7076C12.712 14.4793 13.0434 14.2242 13.353 13.9453L5.99527 5.00065L5.995 5.00087Z" fill="url(#paint1_linear_53_1086rwdhilzz)"></path>
@@ -113,13 +113,18 @@ const Block7 = () =>{
   <clipPath id="clip0_53_108">
   <rect width="16" height="16" fill="red"></rect>
   </clipPath>
-  </defs></svg>
-          </div>
+  </defs></svg></div>
+          </div> 
+            <div className="flex justify-center items-center relative bottom-reborder h-height-div w-width-div">
+            <div className='h-16 w-16 border border-dashed rounded-full'></div></div>
+            <div className="relative bottom-reborder1 flex justify-end h-height-div w-width-div">
+            <div className="h-clip1 w-clip1 rotate-45 relative top-clippos left-clipposl border-t z-40"></div><div className='z-10 bg-primary border-b border-l border-t-primary border-t-2 border-r border-r-primary h-clip w-clip'></div>
+            </div>
           </div>
           <div className="h-/1/3 w-full bg-white p-4 font-semibold text-base">Next.js Templates</div>
         </div>
         <div className="mt-8 w-11/12 h-1/4 flex flex-col border z-10">
-          <div className='h-2/3 w-full bg-reactbg z-0'>
+          <div className='h-2/3 w-full bg-reactbg hover:bg-hoverReact hover:cursor-pointer z-0'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-react"></hr>
             <hr className="border-dashed border-react"></hr>
@@ -144,7 +149,7 @@ const Block7 = () =>{
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">React Templates</div>
         </div>
         <div className="mt-8 w-11/12 h-1/4 flex flex-col border">
-          <div className='h-2/3 w-full'>
+          <div className='h-2/3 w-full hover:bg-hoverNextAstro hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed"></hr>
             <hr className="border-dashed"></hr>
@@ -171,7 +176,7 @@ const Block7 = () =>{
       </div>
       <div className="flex flex-col items-end justify-end w-1/3 h-block7 border">
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-sveltebg'>
+          <div className='h-2/3 w-full bg-sveltebg hover:bg-hoverSvelte hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-svelte"></hr>
             <hr className="border-dashed border-svelte"></hr>
@@ -197,7 +202,7 @@ const Block7 = () =>{
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Svelte Templates</div>
         </div>  
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-nuxtbg'>
+          <div className='h-2/3 w-full hover:bg-hoverNuxt hover:cursor-pointer bg-nuxtbg'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-nuxt"></hr>
             <hr className="border-dashed border-nuxt"></hr>
@@ -215,7 +220,7 @@ const Block7 = () =>{
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Nuxt Templates</div>
         </div>
         <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
-          <div className='h-2/3 w-full bg-pythonbg'>
+          <div className='h-2/3 w-full hover:bg-hoverPython hover:cursor-pointer bg-pythonbg'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-python"></hr>
             <hr className="border-dashed border-python"></hr>
