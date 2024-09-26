@@ -71,7 +71,8 @@ export default {
         'clip1': '53px',
         'clippos':'11px',
         'clipposl': '27px',
-        'bw': '1px'
+        'bw': '1px',
+        
       },
     },
   },
