@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+
+.text-stroke{
+  -webkit-text-stroke: 0.25px #666
+}
 .nav{
   @apply border h-16 flex justify-between bg-primary items-center sticky top-0
 }

@@ -1,7 +1,7 @@
 
 const Block6 = () =>{
   return(
-  <div className="h-block6 flex justify-center items-center text-xl font-semibold border">
+  <div className="h-block6 flex justify-center items-center text-xl font-semibold ">
     <div className="flex justify-center items-center">
       <p>Scale your</p>
       <button className="hover:bg-gray-100 hover:text-black hover:rounded-full bg-white pl-4 pr-4 pt-3 pb-3 m-2 flex justify-center text-sm font-medium items-center border rounded-full">

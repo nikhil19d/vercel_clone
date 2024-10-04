@@ -1,6 +1,9 @@
+import CrossTop from "./CrossTop"
+
 const Block5 = () =>{
   return(
-  <div className="h-block5 flex border">
+  <div className="h-block5 flex relative border-t border-b">
+      <CrossTop />
       <div className="w-1/2 h-full flex flex-col justify-evenly items-center">
         <div className="w-full h-1/3 flex flex-col justify-center">
         <div className="flex pr-12 pl-12 mb-2">

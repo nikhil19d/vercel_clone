@@ -1,7 +1,7 @@
 const Block7 = () =>{
   return(
-  <div className="flex h-block7 justify-center items-center border">
-      <div className="w-1/3 h-block7 flex justify-center items-center border">
+  <div className="flex h-block7 justify-center items-center border-t border-b">
+      <div className="w-1/3 h-block7 flex justify-center items-center border-r">
         <ul className="w-3/4 h-3/5">
         <li className="text-4xl pb-6 leading-none font-bold text-black">Deploy your first app in seconds.</li>
         <li className="flex items-center">
@@ -80,8 +80,8 @@ const Block7 = () =>{
           for all</li></li><li> your domains</li>
         </ul>
       </div>
-      <div className="flex flex-col items-end justify-end w-1/3 h-block7 border">
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col border-bw border z-10">
+      <div className="flex flex-col items-end justify-end w-1/3 h-block7 border-r">
+        <div className="mt-8 relative left-px w-11/12 h-1/4 flex flex-col border-bw border z-10">
           <div className='h-2/3 w-full z-80 hover:bg-hoverNextAstro hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed"></hr>
@@ -123,7 +123,7 @@ const Block7 = () =>{
           </div>
           <div className="h-/1/3 w-full bg-white p-4 font-semibold text-base">Next.js Templates</div>
         </div>
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col border z-10">
+        <div className="mt-8 relative left-px w-11/12 h-1/4 flex flex-col border z-10">
           <div className='h-2/3 w-full bg-reactbg hover:bg-hoverReact hover:cursor-pointer z-0'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-react"></hr>
@@ -150,7 +150,7 @@ const Block7 = () =>{
           </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">React Templates</div>
         </div>
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col border">
+        <div className="mt-8 relative left-px w-11/12 h-1/4 flex flex-col border">
           <div className='h-2/3 w-full hover:bg-hoverNextAstro hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed"></hr>
@@ -178,8 +178,8 @@ const Block7 = () =>{
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Astro Templates</div>
         </div>
       </div>
-      <div className="flex flex-col items-end justify-end w-1/3 h-block7 border">
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
+      <div className="flex flex-col items-end justify-end w-1/3 h-block7 ">
+        <div className="mt-8 relative left-px w-11/12 h-1/4 flex flex-col justify-end border">
           <div className='h-2/3 w-full bg-sveltebg hover:bg-hoverSvelte hover:cursor-pointer'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-svelte"></hr>
@@ -207,7 +207,7 @@ const Block7 = () =>{
           </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Svelte Templates</div>
         </div>  
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
+        <div className="mt-8 w-11/12 h-1/4 relative left-px flex flex-col justify-end border">
           <div className='h-2/3 w-full hover:bg-hoverNuxt hover:cursor-pointer bg-nuxtbg'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-nuxt"></hr>
@@ -227,7 +227,7 @@ const Block7 = () =>{
           </div>
           <div className="h-1/3 w-full bg-white font-semibold text-base p-4">Nuxt Templates</div>
         </div>
-        <div className="mt-8 w-11/12 h-1/4 flex flex-col justify-end border">
+        <div className="mt-8 w-11/12 h-1/4 flex flex-col relative left-px justify-end border">
           <div className='h-2/3 w-full hover:bg-hoverPython hover:cursor-pointer bg-pythonbg'>
           <div className="h-full w-full flex flex-col justify-evenly"> 
             <hr className="border-dashed border-python"></hr>

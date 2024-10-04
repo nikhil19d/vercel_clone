@@ -1,6 +1,6 @@
 const Block2 = () =>{
   return(
-  <div className="h-block2 border-border-w border justify-center items-center font-semibold pt-24 text-3xl">
+  <div className="h-block2 border-border-w justify-center items-center font-semibold pt-24 text-3xl">
     <div className='flex justify-center items-center'>
       Develop with your favorite tools
       <svg className="h-8 w-8 ml-2 mr-2" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16">

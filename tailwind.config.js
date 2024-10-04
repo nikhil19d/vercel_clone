@@ -10,9 +10,8 @@ export default {
     extend: {
       scale: ['group-hover'],
       fontFamily: {
-        //sans: ['Geist', 'sans-serif'],
-        sans: ['Geist Sans', ...fontFamily.sans],
-       //mono: ['Geist Mono', ...fontFamily.mono],
+        sans: ['Geist-Black', ...fontFamily.sans],
+        mono: ['GeistMono-Black', ...fontFamily.mono],
       },
       backgroundImage: {
       'triangle-rainbow': 'conic-gradient(from 180deg at 50% 70%, #fafafa 0deg, #eec32d 72deg, #ec4b4b 144deg, #709ab9 216deg, #4dffbd 288deg, #fafafa 1turn)',
@@ -24,6 +23,7 @@ export default {
         background: '#fff',
         primary: "#FAFAFA",
         blue: '#0070FE',
+        bluebutton: '#52aeff',
         grayc: '#666666',
         txtblue: '#0068D6',
         txtpurple: '#7820BC',
@@ -46,10 +46,12 @@ export default {
       },
       rotate: {
         '65': '65deg',
+        '270': '270deg',
         '265': '265deg',
       },
       fontSize:{
-        'h': '2.5rem'
+        'h': '2.5rem',
+        'v': '12px'
       },
       spacing: {
         'rrel': '60px',
@@ -61,11 +63,11 @@ export default {
         'custom-width1': '80px',
         'custom-width2': '1080px',
         'custom-height-main': '3839.83px',
-        'custom-height-main-div': '3659.83px',
+        'custom-height-main-div': '3646.83px',
         'block1w': '1077px',
         'rel-b1-b': '899px',
         'rel-b1-l': '178px',
-        'b1-div-b': '1705px',
+        'b1-div-b': '1707px',
         'b1-div-l': '89px',
         'block1': '718.25px',
         'block2': '270px',
@@ -103,7 +105,19 @@ export default {
         '49': '99.5%',
         'a1': '1px',
         '430': '430px',
-        '429': '429px'
+        '429': '429px',
+        '41': '41%',
+        'h10': '10%',
+        'w76': '76%',
+        '315': '315px',
+        '131': '131px',
+        '223': '223px',
+        '92': '92px',
+        '405': '405px',
+        '426': '426px',
+        '450': '450px',
+        '482': '482px',
+        '357': '357px'
       },
     },
   },

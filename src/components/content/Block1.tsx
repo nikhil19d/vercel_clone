@@ -1,7 +1,13 @@
+import CrossBottom from "./CrossBottom"
+import CrossTop from "./CrossTop"
+
+
 const Block1 = () =>{
   return(
-  <div className="h-block1">
-  <div className="h-block1 border flex flex-col justify-evenly">
+  <div className="h-block1 relative">
+      <CrossTop />
+      <CrossBottom />
+ <div className="h-block1 border-b flex flex-col justify-evenly">
     <hr />
     <hr />
     <hr />
@@ -23,7 +29,7 @@ const Block1 = () =>{
     <hr />
     <hr />
   </div>
-  <div className="w-10/12 h-2/4 bg-primary flex justify-evenly items-center flex-col border relative bottom-b1-div-b left-b1-div-l">
+  <div className="w-10/12 h-2/4 bg-primary flex justify-evenly items-center flex-col border-t relative bottom-b1-div-b left-b1-div-l">
   <h1 className="font-bold pt-5 text-5xl text-center">Your complete platform for the web.</h1>
   <p className="z-20 w-p text-xl pb-4 text-grayc text-center p-2">Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.</p>
   <div className="flex pb-8 w-2/5 justify-between">
@@ -106,7 +112,7 @@ const Block1 = () =>{
           <line opacity="0.02857142857142858" stroke="black" x1="600" x2="485" y1="597.3153513715015" y2="650.3952809568069"></line>
   </svg>
   </div>
-    <div className="before:bg-rainbow w-full h-th bg-triangle-rainbow mix-blend-hard-light relative bottom-trib"></div>
+    <div className=" w-full h-th mix-blend-hard-light relative bottom-trib"></div>
   </div>
   );
 }
