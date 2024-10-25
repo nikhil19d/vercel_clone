@@ -5,7 +5,7 @@ import Content from './components/Content.tsx'
 import './index.css'
 export default function App() {
   return (
-  <div className=''>
+  <div className='flex justify-center flex-col items-center w-full'>
       <Navbar />
       <Content />
       <Footer />

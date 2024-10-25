@@ -51,11 +51,13 @@ export default {
       },
       fontSize:{
         'h': '2.5rem',
-        'v': '12px'
+        'v': '12px',
+        't': '13.5px',
+        'x': '10px',
       },
       spacing: {
         'rrel': '60px',
-        'labs': '280px',
+        'rrel': '37px',
         'height-div': '116px',
         'width-div': '324px',
         'height-footer': '485px',

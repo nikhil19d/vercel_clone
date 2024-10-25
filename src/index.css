@@ -8,7 +8,7 @@
   -webkit-text-stroke: 0.25px #666
 }
 .nav{
-  @apply border h-16 flex justify-between bg-primary items-center sticky top-0
+  @apply w-full border h-16 flex justify-between bg-primary items-center sticky top-0
 }
 
 .nav-div{
@@ -36,7 +36,7 @@
 }
 
 .footer{
-  @apply h-height-footer flex flex-col justify-evenly items-center
+  @apply w-full h-height-footer flex flex-col justify-evenly items-center
 }
 
 .footer-nav{

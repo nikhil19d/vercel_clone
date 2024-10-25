@@ -20,12 +20,12 @@ const Block5 = () =>{
               </div>
               <div className="p-2 h-1/2 w-full flex justify-between items-center">
               <svg className="text-grayc" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5ZM8 12C9.95279 12 11.5787 10.6006 11.9298 8.75H15.25H16V7.25H15.25H11.9298C11.5787 5.39935 9.95279 4 8 4C6.04721 4 4.42125 5.39935 4.0702 7.25H0.75H0V8.75H0.75H4.0702C4.42125 10.6006 6.04721 12 8 12Z" fill="currentColor"></path></svg>
-              <span className="text-xs">ba5f55f</span><span className="text-sm">Update bento box design</span>  
+              <span className="text-x">ba5f55f</span><span className="text-t">Update bento box design</span>  
               </div>
             </div>
             <div className='h-full w-1/5 flex justify-center items-center'>
             <svg className="rotate-265" fill="none" height="32" stroke-width="4" viewBox="0 0 100 100" width="32"><circle cx="50" cy="50" r="45" stroke-width="10" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" className="stroke-graycir opacity-0 --stroke-percent: -2;"></circle><circle cx="50" cy="50" r="45" stroke-width="10" stroke-dashoffset="100" stroke-dasharray="350" stroke-linecap="round" stroke-linejoin="round" data-geist-progress-circle-fg="" className="stroke-tealcir opacity-1"></circle></svg></div>
-            <p className="text-xs absolute left-labs">95</p>
+            <p className="text-xs relative right-rrel">95</p>
           </div>
           <div className="flex justify-center items-center">
             <svg data-size="large" fill="none" height="152" viewBox="0 0 117 152" width="117"><path d="M3.99999 4L3.99999 60C3.99999 66.6274 9.37258 72 16 72L104 72C110.627 72 116 77.3726 116 84L116 152" stroke="url(#paint0_linear_1364_100888)" stroke-width="2"></path><path d="M3.99999 4L3.99999 60C3.99999 66.6274 9.37258 72 16 72L104 72C110.627 72 116 77.3726 116 84L116 152" stroke="url(#paint1_linear_1364_100888)" stroke-width="2"></path><g clip-path="url(#clip0_1364_100888)"><path clip-rule="evenodd" d="M4 0.5L8 7.5H0L4 0.5Z" fill="#45DEC4" fill-rule="evenodd"></path></g><defs><linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_1364_100888" x1="116" x2="4" y1="72" y2="72"><stop stop-color="#E5484D"></stop><stop offset="0.5" stop-color="#FFC634"></stop><stop offset="1" stop-color="#45DEC4"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="paint1_linear_1364_100888" x1="116" x2="116" y1="152" y2="1.56712e-05"><stop stop-color="var(--ds-background-200)"></stop><stop offset="0.322368" stop-color="var(--ds-background-200)" stop-opacity="0"></stop></linearGradient><clipPath id="clip0_1364_100888"><rect fill="white" height="8" width="8"></rect></clipPath></defs></svg>
@@ -38,12 +38,12 @@ const Block5 = () =>{
               </div>
               <div className="p-2 h-1/2 w-full flex justify-between items-center">
               <svg className="text-grayc" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5ZM8 12C9.95279 12 11.5787 10.6006 11.9298 8.75H15.25H16V7.25H15.25H11.9298C11.5787 5.39935 9.95279 4 8 4C6.04721 4 4.42125 5.39935 4.0702 7.25H0.75H0V8.75H0.75H4.0702C4.42125 10.6006 6.04721 12 8 12Z" fill="currentColor"></path></svg>
-              <span className="text-xs">bx012mm</span><span className="text-sm">Fix ESlint error on query</span>  
+              <span className="text-x">bx012mm</span><span className="text-t">Fix ESlint error on query</span>  
               </div>
             </div>
             <div className='h-full w-1/5 flex justify-center items-center'>
             <svg className="rotate-65" fill="none" height="32" stroke-width="4" viewBox="0 0 100 100" width="32"><circle cx="50" cy="50" r="45" stroke-width="10" stroke-dashoffset="263" stroke-dasharray="80" stroke-linecap="round" stroke-linejoin="round" className="stroke-graycir opacity-1"></circle><circle cx="50" cy="50" r="45" stroke-width="10" stroke-dashoffset="330" stroke-dasharray="122" stroke-linecap="round" stroke-linejoin="round" data-geist-progress-circle-fg="" className="stroke-redcir opacity-1"></circle></svg></div>
-            <p className="text-xs absolute left-labs">55</p>
+            <p className="text-xs relative right-rrel">55</p>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Block5 = () =>{
         </div>
         <p className="text-xl text-grayc mt-2 pl-12 pr-12"><strong className="text-black">Move fast, don’t break things.</strong> Keep quality high while maintaining velocity with Enterprise Monorepos.</p>
       </div>
-      <div className='mb-10 h-1/2 w-4/5 bg-white before:content[""] before:w-430 before:h-full before:rounded-2xl before:bottom-a1 before:absolute before:-z-10 z-10 before:bg-gradient-to-b before:from-gray-200 before:to-primary relative flex justify-evenly bg-gradient-to-b from-white to-primary rounded-2xl border border-transparent'>
+      <div className='mb-10 h-1/2 w-4/5 bg-white z-10 relative flex justify-evenly bg-gradient-to-b from-white to-primary rounded-2xl border border-transparent'>
         <div className="h-full w-1/2 border-r border-r-transparent flex flex-col items-center bg-gradient-to-b from-white to-primary rounded-l-2xl z-10 ">
           <div className="w-full pr-6 pl-6 pb-3 pt-3">Conformance</div>
             <div className="text-xs text-grayc w-4/5 h-4/6 flex flex-col justify-around">
