@@ -1,4 +1,4 @@
-import CrossTop from "./CrossTop"
+import CrossTop from "../../ui/CrossTop"
 
 const Block5 = () =>{
   return(

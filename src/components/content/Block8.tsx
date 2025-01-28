@@ -1,5 +1,5 @@
-import CrossBottom from "./CrossBottom"
-import CrossTop from "./CrossTop"
+import CrossBottom from "../../ui/CrossBottom"
+import CrossTop from "../../ui/CrossTop"
 
 const Block8 = () =>{
   return(
